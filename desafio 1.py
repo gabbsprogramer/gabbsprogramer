@@ -16,7 +16,9 @@ print('voce nasceu em', dia , 'de' , mes , 'de' , ano + '.')
 
 print('esta sera uma tarefa simples, escreva dois numeros e realize a soma entre eles')
 
-num1 = input('primeiro numero: ')
-num2 = input('segundo numero: ')
+num1 = int(input('primeiro numero: '))
+num2 = int(input('segundo numero: '))
+res = num1 + num2
 
-print('a soma entre eles sera:' , int(num1) + int(num2))
+print('a soma entre {} e {}, vale {}' .format(num1, num2, res)
+      
