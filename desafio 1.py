@@ -20,5 +20,5 @@ num1 = int(input('primeiro numero: '))
 num2 = int(input('segundo numero: '))
 res = num1 + num2
 
-print('a soma entre {} e {}, vale {}' .format(num1, num2, res)
-      
+print('a soma entre {} e {}, vale {}' .format(num1, num2, res))
+
